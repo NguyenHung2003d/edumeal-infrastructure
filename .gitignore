@@ -1,0 +1,18 @@
+# OpenTofu local files
+.terraform/
+.tofu/
+
+# State and plan files
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.plan
+
+# Variable files may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
